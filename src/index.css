@@ -2,14 +2,16 @@
   overflow-x: hidden;
 }
 
+#nav{
+}
 
 #logo {
   width: 10%;
   height: 10%;
 }
 
-#Section1{
-  background-image: url('https://i.ibb.co/PYgtRBt/consultoria-empresarial-o-que-e-tipos-e-interacoes.jpg');
+#section1{
+  background-image: url('https://i.ibb.co/DVKdTGL/consultoria-empresarial-o-que-e-tipos-e-interacoes.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;

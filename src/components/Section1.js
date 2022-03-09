@@ -1,8 +1,10 @@
 import React from 'react'
-import {Navbar, Nav, Container, Col, Rol, NavDropdown} from 'react-bootstrap';
+import {Card} from 'react-bootstrap';
 
-export default function firstContainer(){
+export default function section1(){
     return(
-        <h1 id="Section1">CONSULTORIA TRIBUTÁRIA & SOCIETÁRIA QUALIFICADA</h1>
+        <Card body id="section1" className="position-relative">
+        <h1 className="shadow-lg p-3 mb-5 bg-body rounded bg-white border rounded-3 px-5 py-5 overflow-hidden position-absolute top-50 start-50 translate-middle text-center fs-1 text-black">CONSULTORIA TRIBUTÁRIA & SOCIETÁRIA QUALIFICADA</h1>
+        </Card>
     )
 }
