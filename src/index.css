@@ -1,5 +1,6 @@
 *{
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 #nav{
@@ -27,4 +28,11 @@
 #section2{
   width: 100vw;
   height: 100vh;
+}
+
+#card1:hover, #card2:hover, #card3:hover{
+  color: white;
+  background-color: #f08f3a;
+  transition: 0.3s;
+
 }
