@@ -3,8 +3,6 @@
   scroll-behavior: smooth;
 }
 
-#nav{
-}
 
 #button{
   background-color: #FF4000;
@@ -35,4 +33,15 @@
   background-color: #f08f3a;
   transition: 0.3s;
 
+}
+
+#cards {
+  margin-left: 10vw!important;
+}
+
+@media screen and (min-width: 768px) {
+  #cards{
+    display: flex!important;
+    margin-left: 0vw!important;
+  }
 }

@@ -4,13 +4,13 @@ import { Card, Col, Row, Container, Carousel } from 'react-bootstrap'
 export default function section2(){
     return(
         <>
-        <Container id="section2">
+        <Container id="">
         
         <h1 className="text-center mt-5 overflow-hidden">SERVIÇOS</h1>
 
-          <Row className="overflow-hidden">
-              <Col className="mt-5 d-inline-flex">
-          <Card body id="card1" style={{ width: '18rem' }}>
+          <Row className="position-relative overflow-hidden">
+              <Col className="d-block" id="cards" style={{width: '100vw'}}>
+          <Card body id="card1" className="my-5" style={{ width: '18rem' }}>
         <Card.Body>
           <Card.Title className="text-center overflow-hidden">Planejamento Societário</Card.Title>
           <Card.Text className="text-center">
@@ -19,7 +19,7 @@ export default function section2(){
         </Card.Body>
       </Card>
 
-        <Card body id="card2" className="mx-3" style={{ width: '18rem' }}>
+        <Card body id="card2" className="my-5" style={{ width: '18rem' }}>
 
         <Card.Body>
           <Card.Title className="text-center overflow-hidden">Planejamento Tributário</Card.Title>
@@ -29,7 +29,7 @@ export default function section2(){
         </Card.Body>
       </Card>
 
-          <Card body id="card3" style={{ width: '18rem' }}>
+          <Card body id="card3" className="my-5" style={{ width: '18rem' }}>
         <Card.Body>
           <Card.Title className="text-center overflow-hidden">Revisão Tributária</Card.Title>
           <Card.Text className="text-center">
