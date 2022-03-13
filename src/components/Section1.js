@@ -9,7 +9,7 @@ export default function section1(){
         <h1 className="overflow-hidden">
             CONSULTORIA TRIBUTÁRIA & SOCIETÁRIA QUALIFICADA
             </h1>
-        <Button id="button" variant="danger" className="text-center mt-4 fw-bold">SAIBA MAIS</Button>
+        <Button id="button" variant="danger" className="text-center mt-4 fw-bold"><a href="#section3">SAIBA MAIS</a></Button>
         </div>
         </Card>
 
