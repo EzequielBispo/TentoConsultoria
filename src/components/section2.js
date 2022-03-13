@@ -1,10 +1,10 @@
 import React from 'react'
-import { Card, Col, Row, Container, Carousel } from 'react-bootstrap'
+import { Card, Col, Row, Container } from 'react-bootstrap'
 
 export default function section2(){
     return(
         <>
-        <Container id="">
+        <Container id="section2" className="overflow-hidden">
         
         <h1 className="text-center mt-5 overflow-hidden">SERVIÇOS</h1>
 

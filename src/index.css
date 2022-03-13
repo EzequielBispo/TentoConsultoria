@@ -25,12 +25,24 @@
 
 #section2{
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+}
+
+#section3{
+  background-color: #023047!important;
+  color: white;
+  width: 100vw;
+  height: 50vh;
+}
+
+#section4{
+  background-color: #FB8500!important;
+  color: white;
 }
 
 #card1:hover, #card2:hover, #card3:hover{
   color: white;
-  background-color: #f08f3a;
+  background-color: #219EBC;
   transition: 0.3s;
 
 }
@@ -44,4 +56,10 @@
     display: flex!important;
     margin-left: 0vw!important;
   }
+}
+
+#contato{
+  background-color: #FF4000;
+  text-decoration: none;
+  color: white!important;
 }
