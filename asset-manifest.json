@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TentoConsultoria/static/css/main.3452e701.css",
+    "main.js": "/TentoConsultoria/static/js/main.6afcced2.js",
+    "static/js/787.772dda5c.chunk.js": "/TentoConsultoria/static/js/787.772dda5c.chunk.js",
+    "index.html": "/TentoConsultoria/index.html",
+    "main.3452e701.css.map": "/TentoConsultoria/static/css/main.3452e701.css.map",
+    "main.6afcced2.js.map": "/TentoConsultoria/static/js/main.6afcced2.js.map",
+    "787.772dda5c.chunk.js.map": "/TentoConsultoria/static/js/787.772dda5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3452e701.css",
+    "static/js/main.6afcced2.js"
+  ]
+}
